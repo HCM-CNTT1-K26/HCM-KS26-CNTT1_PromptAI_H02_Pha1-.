@@ -56,10 +56,15 @@ Kết quả: {"ma_goi":"FZ","ngay_su_kien":null,"nguoi_lon":1,"tre_em":0,"loai_v
 
 
 Đọc và trích xuất ba tin nhắn sau:
+
 <tin_nhan>
+   
 TN1: Mình muốn đặt gói Sân Vận Động trận tứ kết ngày 20/12 nha, 2 người lớn với 1 bé 8 tuổi, vé thường.
+
 TN2: Cho 3 người đi Fan Zone trận ngày 05/01/2027 ạ. Một người cần hỗ trợ xe lăn.
+
 TN3: Trận chung kết Cúp Sao Vàng tháng 12 còn vé không ạ? Nhà em 4 người lớn, có một người khiếm thị cần hỗ trợ tìm chỗ, lấy vé VIP.
+
 </tin_nhan>
 
 
