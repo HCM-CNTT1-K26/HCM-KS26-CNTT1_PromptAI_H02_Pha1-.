@@ -21,8 +21,9 @@
 **CAU LENH**
 
 
-(1. Chỉ được trả lời dựa trên thông tin có trong file đính kèm. Nếu file không có thông tin cần thiết để trả lời, hãy nói rõ "Thông tin này không có trong file đính kèm" thay vì suy đoán.
-2. Trích dẫn rõ câu trả lời được lấy từ mục, điều khoản hoặc đoạn nội dung nào trong file, kèm nội dung hoặc số hiệu điều khoản liên quan.)
+1. Chỉ được trả lời dựa trên thông tin có trong file đính kèm. Nếu file không có thông tin cần thiết để trả lời, hãy nói rõ "Thông tin này không có trong file đính kèm" thay vì suy đoán.
+   
+2. Trích dẫn rõ câu trả lời được lấy từ mục, điều khoản hoặc đoạn nội dung nào trong file, kèm nội dung hoặc số hiệu điều khoản liên quan.
 
 
 ## 4.2. Trích xuất tin nhắn đặt vé ra JSON
