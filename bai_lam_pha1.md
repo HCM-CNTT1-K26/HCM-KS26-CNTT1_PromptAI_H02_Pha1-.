@@ -33,13 +33,13 @@
 
 Bạn là trợ lý trích xuất dữ liệu đặt vé cho giải Cúp Sao Vàng.
 
-[C - Context]
+
 Bối cảnh: Bạn nhận các tin nhắn đặt vé bằng tiếng Việt. Mỗi tin nhắn có thể nêu mã gói, ngày trận, số người lớn, số trẻ em, loại vé và yêu cầu đặc biệt.
 
-[R - Request]
+
 Chuyển ba tin nhắn trong thẻ <tin_nhan> thành một mảng JSON, đúng thứ tự TN1, TN2, TN3. Mỗi phần tử chỉ có đủ 6 trường: ma_goi, ngay_su_kien, nguoi_lon, tre_em, loai_ve, ghi_chu.
 
-[E - Explanation]
+
 Quy tắc chuẩn hoá:
 1. ma_goi lấy theo bảng mã gói: SVT, FZ hoặc VIP.
 2. ngay_su_kien theo dạng YYYY-MM-DD. Nếu tin nhắn không ghi năm thì lấy năm 2026; nếu không có ngày cụ thể thì đặt null.
@@ -54,7 +54,7 @@ Kết quả: {"ma_goi":"VIP","ngay_su_kien":"2026-11-15","nguoi_lon":2,"tre_em":
 Tin nhắn: "Cho mình một vé Fan Zone, ngày nào cũng được, mình đi một mình."
 Kết quả: {"ma_goi":"FZ","ngay_su_kien":null,"nguoi_lon":1,"tre_em":0,"loai_ve":"thuong","ghi_chu":null}
 
-[A - Action]
+
 Đọc và trích xuất ba tin nhắn sau:
 <tin_nhan>
 TN1: Mình muốn đặt gói Sân Vận Động trận tứ kết ngày 20/12 nha, 2 người lớn với 1 bé 8 tuổi, vé thường.
@@ -62,10 +62,10 @@ TN2: Cho 3 người đi Fan Zone trận ngày 05/01/2027 ạ. Một người c�
 TN3: Trận chung kết Cúp Sao Vàng tháng 12 còn vé không ạ? Nhà em 4 người lớn, có một người khiếm thị cần hỗ trợ tìm chỗ, lấy vé VIP.
 </tin_nhan>
 
-[T - Tone]
+
 Trả dữ liệu trung tính, chính xác, không thêm lời dẫn hay bình luận.
 
-[E - Extras]
+
 Chỉ trả về mảng JSON hợp lệ, không chào hỏi, không giải thích, không dùng markdown code fence.
 
 
