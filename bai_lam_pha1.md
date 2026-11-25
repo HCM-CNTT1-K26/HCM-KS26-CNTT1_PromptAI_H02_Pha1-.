@@ -102,7 +102,7 @@ Tính từng bước theo đúng thứ tự sau, ghi rõ phép tính ở mỗi b
 5. Phụ thu khu ghế ưu tiên.
 6. Tổng tiền cuối cùng.
 
-Trình bày tiếng Việt, ngắn gọn. Dòng cuối phải có đúng dạng [RESULT: <tổng tiền> đồng].
+Trình bày tiếng Việt, ngắn gọn. Dòng cuối phải có đúng dạng : <tổng tiền> đồng.
 
 
 ## 4.4. Dây chuyền xử lý khiếu nại (Prompt Chaining)
